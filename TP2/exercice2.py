@@ -20,7 +20,5 @@ def charger_pokemons_csv(nom_fichier):
 
     return pokemons
 
-
-# Programme principal
 pkmn = charger_pokemons_csv("pokemon.csv")
 print(pkmn)
